@@ -426,7 +426,7 @@ window.XBOARD_TRANSLATIONS['vi-VN'] = {
     "userManagement": "Người dùng",
     "trafficResetLogs": "Nhật ký Reset Traffic",
     "ticketManagement": "Ticket hỗ trợ",
-    "subWebsite":"Web con",
+    "subWebsite": "Web con",
     "pluginApps": "Ứng dụng Plugin"
   },
   "auth": {
@@ -2398,6 +2398,7 @@ window.XBOARD_TRANSLATIONS['vi-VN'] = {
     "orderManagement": "Đơn hàng",
     "couponManagement": "Mã Giảm Giá",
     "userManagement": "Người Dùng",
+    "subWebsite": "Web con",
     "ticketManagement": "Ticket"
   },
   "ticket": {

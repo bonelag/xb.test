@@ -2425,6 +2425,7 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
     "orderManagement": "订单管理",
     "couponManagement": "优惠券管理",
     "userManagement": "用户管理",
+    "subWebsite":"子网站",
     "ticketManagement": "工单管理"
   },
   "ticket": {

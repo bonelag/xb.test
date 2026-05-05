@@ -426,7 +426,7 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
     "userManagement": "User Management",
     "trafficResetLogs": "Traffic Reset Logs",
     "ticketManagement": "Ticket Management",
-    "subWebsite":"Sub Website",
+    "subWebsite": "Sub Website",
     "pluginApps": "Plugin Apps"
   },
   "auth": {
@@ -2410,6 +2410,7 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
     "orderManagement": "Order Management",
     "couponManagement": "Coupon Management",
     "userManagement": "User Management",
+    "subWebsite": "Sub Website",
     "ticketManagement": "Ticket Management"
   },
   "ticket": {
