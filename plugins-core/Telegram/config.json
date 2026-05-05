@@ -1,0 +1,66 @@
+{
+    "name": "Telegram Bot",
+    "code": "telegram",
+    "version": "1.0.1",
+    "description": "Telegram Bot xử lý tin nhắn và hệ thống lệnh",
+    "author": "XBoard Team",
+    "require": {
+        "xboard": ">=1.0.0"
+    },
+    "config": {
+        "enable_ticket_notify": {
+            "type": "boolean",
+            "default": true,
+            "label": "Bật thông báo ticket",
+            "description": "Bật/tắt thông báo Telegram khi tạo và trả lời ticket"
+        },
+        "enable_payment_notify": {
+            "type": "boolean",
+            "default": true,
+            "label": "Bật thông báo thanh toán",
+            "description": "Bật/tắt thông báo Telegram khi thanh toán thành công"
+        },
+        "start_welcome_title": {
+            "type": "string",
+            "default": "🎉 Chào mừng bạn đến với XBoard Telegram Bot!",
+            "label": "Tiêu đề chào mừng",
+            "description": "Tiêu đề hiển thị khi dùng lệnh /start"
+        },
+        "start_bot_description": {
+            "type": "text",
+            "default": "🤖 Tôi là trợ lý của bạn, có thể giúp bạn:\\n• Liên kết tài khoản XBoard\\n• Xem lượng dữ liệu đã dùng\\n• Lấy link đăng ký mới nhất\\n• Quản lý trạng thái liên kết tài khoản",
+            "label": "Mô tả bot",
+            "description": "Giới thiệu chức năng bot khi dùng lệnh /start"
+        },
+        "start_bind_guide": {
+            "type": "text",
+            "default": "🔗 Vui lòng liên kết tài khoản XBoard của bạn:\\n1. Đăng nhập vào tài khoản XBoard\\n2. Sao chép link đăng ký\\n3. Gửi /bind + link đăng ký",
+            "label": "Hướng dẫn liên kết",
+            "description": "Hướng dẫn hiển thị cho người dùng chưa liên kết"
+        },
+        "start_unbind_guide": {
+            "type": "text",
+            "default": "📋 Lệnh có thể dùng:\\n/traffic - Xem lượng dữ liệu\\n/getlatesturl - Lấy link đăng ký\\n/unbind - Hủy liên kết tài khoản",
+            "label": "Danh sách lệnh (đã liên kết)",
+            "description": "Danh sách lệnh hiển thị cho người dùng đã liên kết"
+        },
+        "start_bind_commands": {
+            "type": "text",
+            "default": "📋 Lệnh có thể dùng:\\n/bind [link đăng ký] - Liên kết tài khoản",
+            "label": "Danh sách lệnh (chưa liên kết)",
+            "description": "Danh sách lệnh hiển thị cho người dùng chưa liên kết"
+        },
+        "start_footer": {
+            "type": "text",
+            "default": "💡 Lưu ý: Tất cả lệnh cần dùng trong chat riêng",
+            "label": "Chú thích cuối",
+            "description": "Chú thích hiển thị ở cuối khi dùng lệnh /start"
+        },
+        "help_text": {
+            "type": "text",
+            "default": "Vui lòng sử dụng các lệnh sau:\\n/bind - Liên kết tài khoản\\n/traffic - Xem lượng dữ liệu\\n/getlatesturl - Lấy link mới nhất",
+            "label": "Nội dung trợ giúp",
+            "description": "Nội dung hiển thị khi nhận lệnh không xác định"
+        }
+    }
+}
