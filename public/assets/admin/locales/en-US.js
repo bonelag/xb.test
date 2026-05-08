@@ -203,6 +203,7 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
     "confirm": "Confirm",
     "close": "Close",
     "delete": {
+      "submit": "Delete",
       "success": "Deleted successfully",
       "failed": "Failed to delete"
     },
@@ -3106,6 +3107,47 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
       "banned": "Banned",
       "admin": "Admin",
       "staff": "Staff"
+    }
+  },
+  "subwebsite": {
+    "title": "Sub Website Management",
+    "description": "Manage sub websites and domains.",
+    "columns": {
+      "id": "ID",
+      "domain": "Domain",
+      "owner_email": "Owner Email",
+      "status": "Status",
+      "enabled": "Active",
+      "created_at": "Created",
+      "actions": "Actions"
+    },
+    "status": {
+      "active": "Active",
+      "off": "Off",
+      "error": "Error",
+      "inactive": "Inactive",
+      "pending": "Pending"
+    },
+    "add": {
+      "title": "Add Sub Website",
+      "description": "Add a new sub website to the system.",
+      "domain": "Domain",
+      "domain_placeholder": "example.com",
+      "owner_email": "Owner Email",
+      "owner_email_placeholder": "Select owner email...",
+      "submit": "Add",
+      "success": "Sub website added successfully",
+      "failed": "Failed to add sub website"
+    },
+    "delete": {
+      "title": "Delete Sub Website",
+      "description": "Are you sure you want to delete {domain}?",
+      "success": "Sub website deleted successfully",
+      "failed": "Failed to delete sub website"
+    },
+    "table": {
+      "search": "Search by domain...",
+      "no_results": "No sub websites found"
     }
   },
   "giftCard": {

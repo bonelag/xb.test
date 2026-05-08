@@ -11,6 +11,7 @@ use App\Http\Controllers\V2\Admin\Server\MachineController;
 use App\Http\Controllers\V2\Admin\OrderController;
 use App\Http\Controllers\V2\Admin\UserController;
 use App\Http\Controllers\V2\Admin\StatController;
+use App\Http\Controllers\V2\Admin\SubwebController;
 use App\Http\Controllers\V2\Admin\NoticeController;
 use App\Http\Controllers\V2\Admin\TicketController;
 use App\Http\Controllers\V2\Admin\CouponController;
@@ -136,6 +137,16 @@ class AdminRoute
                 $router->post('/resetSecret', [UserController::class, 'resetSecret']);
                 $router->post('/setInviteUser', [UserController::class, 'setInviteUser']);
                 $router->post('/destroy', [UserController::class, 'destroy']);
+            });
+
+            // Subweb
+            $router->group([
+                'prefix' => 'subweb'
+            ], function ($router) {
+                $router->any('/fetch', [SubwebController::class, 'fetch']);
+                $router->post('/save', [SubwebController::class, 'save']);
+                $router->post('/update', [SubwebController::class, 'update']);
+                $router->post('/drop', [SubwebController::class, 'drop']);
             });
 
             // Stat

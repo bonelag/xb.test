@@ -203,6 +203,7 @@ window.XBOARD_TRANSLATIONS['vi-VN'] = {
     "confirm": "Xác nhận",
     "close": "Đóng",
     "delete": {
+      "submit": "Xóa",
       "success": "Xóa thành công",
       "failed": "Không thể xóa"
     },
@@ -3094,6 +3095,47 @@ window.XBOARD_TRANSLATIONS['vi-VN'] = {
       "banned": "Đã cấm",
       "admin": "Admin",
       "staff": "Nhân viên"
+    }
+  },
+  "subwebsite": {
+    "title": "Quản lý Web con",
+    "description": "Quản lý các website con và tên miền.",
+    "columns": {
+      "id": "ID",
+      "domain": "Tên miền",
+      "owner_email": "Email chủ sở hữu",
+      "status": "Trạng thái",
+      "enabled": "Kích hoạt",
+      "created_at": "Ngày tạo",
+      "actions": "Thao tác"
+    },
+    "status": {
+      "active": "Hoạt động",
+      "off": "Tắt",
+      "error": "Lỗi",
+      "inactive": "Vô hiệu",
+      "pending": "Chờ xác nhận"
+    },
+    "add": {
+      "title": "Thêm Web con",
+      "description": "Thêm một website con mới vào hệ thống.",
+      "domain": "Tên miền",
+      "domain_placeholder": "example.com",
+      "owner_email": "Email chủ sở hữu",
+      "owner_email_placeholder": "Chọn email chủ sở hữu...",
+      "submit": "Thêm",
+      "success": "Thêm web con thành công",
+      "failed": "Thêm web con thất bại"
+    },
+    "delete": {
+      "title": "Xóa Web con",
+      "description": "Bạn có chắc chắn muốn xóa web con {domain}?",
+      "success": "Xóa web con thành công",
+      "failed": "Xóa web con thất bại"
+    },
+    "table": {
+      "search": "Tìm theo tên miền...",
+      "no_results": "Không có web con nào"
     }
   },
   "giftCard": {

@@ -201,6 +201,7 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
     "confirm": "确认",
     "close": "关闭",
     "delete": {
+      "submit": "删除",
       "success": "删除成功",
       "failed": "删除失败"
     },
@@ -3121,6 +3122,47 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
       "banned": "已封禁",
       "admin": "管理员",
       "staff": "员工"
+    }
+  },
+  "subwebsite": {
+    "title": "子站管理",
+    "description": "管理子站点和域名。",
+    "columns": {
+      "id": "ID",
+      "domain": "域名",
+      "owner_email": "所有者邮箱",
+      "status": "状态",
+      "enabled": "启用",
+      "created_at": "创建时间",
+      "actions": "操作"
+    },
+    "status": {
+      "active": "活跃",
+      "off": "关闭",
+      "error": "错误",
+      "inactive": "停用",
+      "pending": "待确认"
+    },
+    "add": {
+      "title": "添加子站",
+      "description": "向系统添加新的子站。",
+      "domain": "域名",
+      "domain_placeholder": "example.com",
+      "owner_email": "所有者邮箱",
+      "owner_email_placeholder": "选择所有者邮箱...",
+      "submit": "添加",
+      "success": "添加子站成功",
+      "failed": "添加子站失败"
+    },
+    "delete": {
+      "title": "删除子站",
+      "description": "确定要删除子站 {domain} 吗？",
+      "success": "删除子站成功",
+      "failed": "删除子站失败"
+    },
+    "table": {
+      "search": "按域名搜索...",
+      "no_results": "暂无子站"
     }
   },
   "giftCard": {

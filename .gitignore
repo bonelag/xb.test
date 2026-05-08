@@ -34,3 +34,7 @@ compose.split.yaml
 .scribe
 CLAUDE.md
 deploy.bat
+.agents
+.claude
+skills-lock.json
+docs

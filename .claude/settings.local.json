@@ -1,7 +1,17 @@
 {
   "permissions": {
     "allow": [
-      "Bash(Get-ChildItem -Path *)"
+      "Bash(Get-ChildItem -Path *)",
+      "Bash('\\) { i = chunk.indexOf\\(`, i + 1\\); if \\(i === -1\\) break; } // skip template literals *)",
+      "Bash(node -e ' *)",
+      "Bash(node -e \"const fs = require\\('fs'\\); const code = fs.readFileSync\\('f:/Code/xb.test/public/assets/unminify/index.unminify.js', 'utf8'\\); const start = code.indexOf\\('var sSubwebsiteApiBase'\\); const end = code.indexOf\\('const _9t = Object.freeze\\('\\); const chunk = code.substring\\(start, end\\); console.log\\('Injected chunk length:', chunk.length\\); console.log\\('First 200 chars:', chunk.substring\\(0, 200\\)\\); let depth = 0; let maxDepth = 0; for \\(let i = 0; i < chunk.length; i++\\) { const ch = chunk[i]; if \\(ch === '{'\\) { depth++; maxDepth = Math.max\\(maxDepth, depth\\); } if \\(ch === '}'\\) { depth--; } } console.log\\('Final brace depth:', depth, 'max depth:', maxDepth\\);\")",
+      "Bash(*)",
+      "PowerShell(php -l \"database/migrations/2026_05_08_000001_create_v2_subweb_table.php\")",
+      "PowerShell(php -l \"app/Models/Subweb.php\")",
+      "PowerShell(php -l \"app/Http/Requests/Admin/SubwebSave.php\")",
+      "PowerShell(php -l \"app/Http/Controllers/V2/Admin/SubwebController.php\")",
+      "PowerShell(php -l \"app/Http/Routes/V2/AdminRoute.php\")",
+      "PowerShell(*)"
     ]
   }
 }
